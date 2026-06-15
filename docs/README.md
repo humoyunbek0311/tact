@@ -77,7 +77,7 @@ Inside of this Astro + Starlight project, you'll see the following folders and f
 └── cspell.json
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name. The Tact docs use `.mdx` files only.
+Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name. The Tact docs primarily use .mdx files.
 
 Images can be added to `src/assets/` and embedded in MDX files with a relative link. Static assets, like favicons, can be placed in the `public/` directory.
 
@@ -100,7 +100,7 @@ All commands are run from the root of the project, from a terminal:
 
 ### ⚠️ Gotchas
 
-- When updating TextMate grammars in `grammars/` (for example, `grammar-tact.json`), make sure that the value for the `"name"` property is written all lowercase, otherwise highlighting will break.
+- When updating TextMate grammars in `grammars/` (for example, `grammar-tact.json`), make sure that the value for the `"name"` property is written in lowercase, otherwise highlighting will break.
 
 ### 👀 Want to learn more about the framework behind Tact docs?
 
